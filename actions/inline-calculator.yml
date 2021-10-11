@@ -1,0 +1,6 @@
+name: Calcular expressão
+pattern: =
+type: command
+icon: calculator
+# %s srepresenta que o usuário digitou
+url: /bin/bc-gui %s
