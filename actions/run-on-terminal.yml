@@ -1,0 +1,6 @@
+name: Executar no terminal
+pattern: $
+type: command
+icon: org.xfce.terminalemulator
+# %s srepresenta que o usuário digitou
+url: exo-open --launch TerminalEmulator /bin/enhanced-open-in-terminal %s
