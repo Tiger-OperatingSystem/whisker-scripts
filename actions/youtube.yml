@@ -1,0 +1,6 @@
+name: Pesquisar no YoutTube
+pattern: \y
+type: website
+icon: youtube.com
+# %u srepresenta que o usuário digitou
+url: https://www.youtube.com/results?search_query=%u
