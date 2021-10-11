@@ -1,0 +1,6 @@
+name: Wikipédia
+pattern: \w
+type: website
+icon: wikipedia.org
+# %u srepresenta que o usuário digitou
+url: https://pt.wikipedia.org/wiki/%u
