@@ -1,0 +1,6 @@
+name: Pesquisar na web
+pattern: ,
+type: website
+icon: google.com
+# %u srepresenta que o usuário digitou
+url: https://google.com/search?q=%u
