@@ -2,11 +2,9 @@
 
 cd "${HOME}"
 
-temp_script=$(mktemp)
-echo "${@}" > ${temp_script}
 echo -e  "Executando, a linha:\n\n  ${@}\n"
 
-bash ${temp_script}
+echo -E "${@}" | bash
 
 echo -e "\nO comando terminou com saída '${?}'\n"
 read -n1 -p "Pressione qualquer tecla para fechar..." dummy
