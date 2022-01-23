@@ -1,10 +1,10 @@
 #!/bin/bash
 
 function getExpression(){
-  original_expression=$(yad --form --title='Calculadora de linha' \
+  original_expression=$(yad --form --title='Calculadora de linha'                                                               \
                  --text="<big><b>Digite uma expressão e pressione Enter para obter o resultado</b></big>\nExemplo: 2+2x(3+7)\n" \
-                 --columns=1 --width=480 --field='':EDT "${result}" --field=' ':LBL --button=gtk-cancel:1 --button="=":0 \
-                 --borders=32 --fixed --center)
+                 --columns=1 --width=480 --field='':EDT "${result}" --field=' ':LBL --button=gtk-cancel:1 --button="=":0        \
+                 --borders=32 --fixed --center --window-icon=accessories-calculator --close-on-unfocus --undecorated)
   [ ! "${?}" = "0" ] && exit 0
   calculation
 }
