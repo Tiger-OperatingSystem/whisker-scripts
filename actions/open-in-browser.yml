@@ -1,0 +1,6 @@
+name: Abrir no navegador
+pattern: www.
+type: website
+icon: google.com
+# %u srepresenta que o usuário digitou
+url: https://www.%u
