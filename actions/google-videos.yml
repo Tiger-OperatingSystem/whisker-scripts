@@ -1,5 +1,5 @@
 name: Pesquisar vídeos na web
-pattern: .
+pattern: ;
 type: website
 icon: google.com
 # %u srepresenta que o usuário digitou
