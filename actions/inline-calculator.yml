@@ -3,4 +3,4 @@ pattern: =
 type: command
 icon: calculator
 # %s srepresenta que o usuário digitou
-url: /bin/bc-gui %s
+url: /usr/share/tiger-shell/scripts/inline-calculator %s
