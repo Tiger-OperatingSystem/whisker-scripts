@@ -31,8 +31,8 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Tipo
-      description: Qual o tipo de ação você está  recomendando?
+      label: Qual o tipo de ação você está recomendando?
+      description: Você pode escolher se sua ação vai ser abrir um URL no navegador, se será executar um comando no terminal ou se vai executar um aplicativo com interface gráfica
       options:
         - Abrir um site no navegador
         - Executar um comando
