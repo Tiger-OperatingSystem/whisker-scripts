@@ -14,7 +14,7 @@ type=$(echo "${issue}" | sed -n '15p')
   type="website"
   url=$(echo "${url}" | sed 's/{pesquisa}/%u/g')
 }|| {
-  [ "${type}" = "Abrir um site no navegador" ] && {
+  [ "${type}" = "Executar um comando" ] && {
     url="exo-open --launch TerminalEmulator /usr/share/tiger-shell/scripts/enhanced-open-in-terminal ${url}"
   }
   type="command"
