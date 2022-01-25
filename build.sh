@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 
-ISSUE_URL="https://github.com/project-portable/silver-spork/issues/4"
-
 issue=$(echo -e $(gh issue view ${ISSUE_URL} --json body | cut -d\" -f4))
 
 name=$(echo "${issue}" | sed -n '3p')
