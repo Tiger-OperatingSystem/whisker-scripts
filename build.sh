@@ -21,6 +21,6 @@ type=$(echo "${issue}" | sed -n '15p')
 
 file_name=$(echo -n "${name}" | tr '[:upper:]' '[:lower:]' | tr '[:space:]' '-').yml
 
-echo -e "@daigoasuka sugestão de ação de nome \`${file_name}\` contendo:\n\n"'```'"yaml\nname: ${name}\npattern: ${pattern}\ntype: ${type}\nicon: org.xfce.terminalemulator\nurl: ${url}\n"'```' > commit.md
+echo -e "@daigoasuka sugestão de ação de nome \`actions/${file_name}\` contendo:\n\n"'```'"yaml\nname: ${name}\npattern: ${pattern}\ntype: ${type}\nicon: org.xfce.terminalemulator\nurl: ${url}\n"'```' > commit.md
 
 gh issue comment "${ISSUE_URL}" --body-file commit.md
