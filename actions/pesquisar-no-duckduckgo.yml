@@ -1,0 +1,5 @@
+name: Pesquisar no DuckDuckGo
+pattern: ddg
+type: website
+icon: org.xfce.terminalemulator
+url: https://duckduckgo.com/?q=%u
